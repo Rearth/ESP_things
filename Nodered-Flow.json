@@ -1,0 +1,37 @@
+[
+    {
+        "id": "5be4a99d.5eef38",
+        "type": "mqtt out",
+        "z": "438679b0.fc0988",
+        "name": "",
+        "topic": "/feeds/beamerToggle",
+        "qos": "2",
+        "retain": "false",
+        "broker": "984a842.5a96c78",
+        "x": 623,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "984a842.5a96c78",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "default-rearth",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]
