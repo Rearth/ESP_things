@@ -27,7 +27,7 @@ IRsend irsend(IR_LED);  // Set the GPIO to be used to sending the message.
 /************************* WiFi Access Point *********************************/
 
 #define WLAN_SSID       "CIA"
-#define WLAN_PASS       "2Secret4UWeakling!"
+#define WLAN_PASS       "hidden"
 
 /************************* Adafruit.io Setup *********************************/
 
